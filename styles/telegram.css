@@ -1,0 +1,38 @@
+
+.telegram-container{
+    background-image: url(../images/telegramround2.png);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    right: 20px;
+    bottom: 25%;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .4;
+    transition: .2s;
+    /* border: 1px solid #2DA5D9; */
+
+}
+
+
+
+.telegram-show{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.telegram-container:hover{
+    opacity: 1;
+}
+
+.telegram-container img {
+    width: 55px;
+    
+}

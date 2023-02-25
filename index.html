@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="canonical" href="https://blitz-studio.ru"/>
+    <meta name="description" content= "Евдокимов Сергей javascript fullstack разработчик"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"/>
+    <link rel="icon" href="./images/favicon48.ico">
+    <title>Sergey Evdokimov Javascript Developer</title>
+    <link href="./styles/app.css" rel="stylesheet">
+    </head>
+<body>
+    <div class="main">
+        <div class="telegram-container" id="telegram-block">
+            <img src="./images/telegramfly.png" id="telegram-fly"/>
+        </div>
+        <div class="top__control" id="arrow-up-js">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+        <div id= 'mask' class= 'popup__mask'></div>
+        <div class="window__message">
+            <div class="window__message-control">
+                <i class="fa fa-times"></i>
+            </div>
+            <div class="window__message-content">
+                <p id="message-text"></p>
+            </div>
+        </div>
+        <div id= 'popup' class= 'popup__wrap'>
+            <div class= 'popup__container'>
+                <div class= 'popup__title'>
+                    <div id= 'times' class= 'popup__times-wrap'>
+                        <i class= 'fa fa-times'></i>
+                    </div>
+                </div>
+                <!-- <div class= 'popup__controls'>
+                    <a href= '/' class= 'popup__controls-btn'>
+                        <i class= 'fa fa-home'></i>
+                        <span>Главная</span>
+                    </a>
+                   
+                </div> -->
+                <div class= 'popup__points'>
+                    <div class= 'popup__points-nav'>
+                        <span id="mainlink-js-adaptive" data-path = "main">Main</span>
+                        <span id="aboutlink-js-adaptive" data-path = "about">About</span>
+                        <span id="projectslink-js-adaptive" data-path = "projects">Projects</span>
+                        <span id="skillslink-js-adaptive" data-path = "skills">Skills</span>
+                        <span id="contactslink-js-adaptive" data-path = "contacts">Contacts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header>
+            <div class="container">
+                <div class="header__nav-wrapper">
+                    <div class="burger__wrapper">
+                        <div class="burger" id="burger">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                    </div>
+                    <nav>
+                        <span id="mainlink-js" data-path = "main">Main</span>
+                        <span id="aboutlink-js" data-path = "about">About</span>
+                        <span id="projectslink-js" data-path = "projects">Projects</span>
+                        <span id="skillslink-js" data-path = "skills">Skills</span>
+                        <span id="contactslink-js" data-path = "contacts">Contacts</span>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="section__main">
+           <div class="container">
+                <div class="section__main-content-wrapper">
+                    <div class="section__main-content">
+                        <h2 class="name">Sergey</h2>
+                        <h2 class="lastname">Evdokimov</h2>
+                        <span>Javascript Developer</span>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="section__about">
+            <div class="container">
+                <div class="section__about-wrapper">
+                    <div class="section__about-img">
+                        <img src="./images/sergio.png"/>
+                    </div>
+                    <div class="section__about-text">
+                        <div class="section__about-text-title">
+                            <div class="section__about-text-title-wrap">
+                                <h2>Sergey Evdokimov</h2>
+                                <p>Javascript Developer</p>
+                            </div>
+                        </div>
+                        <div class="section__about-text-content">
+                            <p>Привет! Меня зовут Сергей, я Javascript разработчик из Санкт-Петербурга. Работаю в этой сфере с 2019 года. Мой первый коммерческий опыт - участие в создании клиентской части веб-приложения для онлайн-казино. Была небольшая команда, и я в ней был одним из двух frontend разработчиков. Затем принимал участие в доработке и поддержке приложения одной не самой популярной криптобиржи. После 24-го февраля работал над проектом для онлайн обучения, который должен был стать аналогом сайта Udemy, но проект не взлетел. В проекте поработал и над клиентской частью и принял участие в создании REST Api, Все исходники есть у меня в Github. 
+                            Потом был проект - сайт интернет-магазина по оптовой продаже товаров из Турции в Россию. В настоящее время участвую в двух небольших проектах: сайт веб-студии из Санкт-Петербурга, и веб-приложение для онлайн обучения.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__projects">
+              <div class="container">
+                <div class="section__projects-wrapper">
+                    <div class="section__projects-title">
+                        <h2>Projects</h2>
+                    </div>
+                    <div class="section__projects-content">
+                        <!-- Сюда рендерятся карточки -->
+                    </div>                   
+                </div>
+              </div>
+        </div>
+        <div class="section__skills">
+            <div class="container">
+                <div class="section__skills-wrapper">
+                    <div class="section__skills-title">
+                        <h2>Skills</h2>
+                    </div>
+                    <div id="skills-js" class="section__skills-content">
+                      <!-- Сюда рендерятся карточки технологий -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__contacts">
+            <div class="container">
+                <div class="section__contacts-wrapper">
+                    <div class="section__contacts-title">
+                        <h2>Contacts</h2>
+                    </div>
+                    <div class="section__contacts-text">
+                        <p>Для связи оставьте сообщение, воспользовавшись формой!</p>
+                    </div>
+                    <div class="section__contacts-content">
+                        <form class="section__contacts-form" id="form-block">
+                            <input type="text" name="name" id="form-name" placeholder="Ваше имя" class="form-field"  data-valid = 'false'/>
+                            <input type="text" name="email" id="form-email" placeholder="E-mail" class="form-field"  data-valid = 'false'/>
+                            <textarea name="message" id="form-message" placeholder="Сообщение" class="form-field"  data-valid = 'false'></textarea>
+                            <div class="section__contacts-form-btn-wrap" id="btn-container">
+                                <!-- <button id="form-btn" class="section__contacts-form-btn section__contacts-form-btn-active" >Отправить сообщение</button> -->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__text-item">
+                        <span>Sergey Evdokimov</span>
+                        <span>Javascript Developer</span>
+                    </div>
+                    <div class="footer__text-item">
+                        <span>Saint-Petersburg</span>
+                        <span>Russia</span>
+                    </div>
+                    <div class="footer__text-item">
+                        <a href="mailto:stander233@gmail.com">stender233@gmail.com</a>
+                        <div class="footer__phone-link">
+                            <a href="tel:+79210900218" id="phone-link"></a>
+                            <button id="phone-link-btn" data-show = 'true'></button>
+                        </div>
+                    </div>
+                    <div class="footer__icon-wrapper">
+                        <div class="footer__icon-item">
+                            <a href="https://github.com/Sergio-19" target="_blank">
+                              <img src="./images/githubicon.png" alt="github"/>  
+                            </a>                
+                        </div>
+                        <div class="footer__icon-item">
+                            <a href="https://t.me/sergio19spb" target="_blank">
+                                <img src="./images/telegramicon.png" alt="github"/>  
+                            </a>
+                        </div>
+                        <div class="footer__icon-item">
+                            <a href="https://vk.com/id39044339" target="_blank">
+                                <img src="./images/vkicon.png" alt="github"/>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js"></script>
+    <script src="./js/developcards.js"></script> 
+    <script src="./js/skillscards.js"></script> 
+    <script src="./js/contactsform.js"></script>
+    <script src="./js/telegram.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/utils.js"></script>
+</body>
+</html>

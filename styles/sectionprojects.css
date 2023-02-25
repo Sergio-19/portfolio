@@ -1,0 +1,151 @@
+
+.section__projects{
+    background-color: #F8F9FA;
+    margin-top: 50px;
+    min-height: 100vh;
+}
+
+.section__projects-wrapper{
+
+}
+
+.section__projects-title{
+    background-image: url(../images/portfolio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section__projects-title h2{
+    color: #333a94;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+  
+  .section__content {
+    margin: 20px auto;
+  }
+  
+  .content-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .content-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .section__develop-card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 570px;
+    background-color: #fff;
+    margin: 10px;
+    transition: 0.2s;
+    -webkit-box-shadow: 7px 5px 13px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 7px 5px 13px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 7px 5px 13px 5px rgba(34, 60, 80, 0.2);
+  }
+  .section__develop-card:hover {
+    -webkit-box-shadow: 7px 5px 21px 17px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 7px 5px 21px 17px rgba(34, 60, 80, 0.2);
+    box-shadow: 7px 5px 21px 17px rgba(34, 60, 80, 0.2);
+    transform: scale(1.1);
+  }
+  
+
+  .section__develop-card-overlay{
+    background-color: #333a94;
+    opacity: .96;
+    position: absolute;
+    cursor: pointer;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    transition: .4s;
+  }
+
+  .section__develop-card-overlay-show{
+    left: 0;
+  }
+
+  .section__develop-card-overlay-text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .section__develop-card-overlay-text-wrap{
+        padding: 10px;
+        text-align: center;
+  }
+
+  .section__develop-card-overlay-text-wrap p{
+        font-size: 22px;
+        color: #fff;
+  }
+
+  .section__develop-card-overlay-text-wrap span{
+    font-size: 22px;
+    display: block;
+    margin: 20px auto;
+    color:  #000;
+    max-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+  
+  .section__develop-card-title {
+    padding: 5px;
+  }
+  .section__develop-card-title h3 {
+    font-size: 22px;
+  }
+  
+  .section__develop-card-stack {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section__develop-card-stack-item {
+    border: 1px solid #2d2d2d;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 5px;
+  }
+  
+  .section__develop-card-img {
+    width: 100%;
+    overflow: hidden;
+  }
+  .section__develop-card-img img {
+    width: 100%;
+  }
+
+/* .text{
+    padding: 200px;
+    background-color: #fff;
+}
+
+.text h2{
+    -webkit-text-stroke: 1px #e7e9f8;
+    color: transparent;
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 1.1;
+} */

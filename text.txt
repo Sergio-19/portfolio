@@ -1,0 +1,5 @@
+js react redux typescript 
+html css sass styled component
+mongodb mysql postgresql firebase
+webpack
+figma photoshop
